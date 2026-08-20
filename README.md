@@ -42,6 +42,8 @@ Domi 是一个面向 macOS 的桌面宠物应用。一只透明、始终置顶�
 
 九个核心动作分别用于默认、开心、休息提醒、伸懒腰、喝水提醒、睡觉、走路、跑步和扑球。走路与跑步都采用六张真实姿势帧：腿部交替、身体重心和腾空阶段会逐帧变化，不再依赖整张图片上下晃动。没有单独制作的状态按固定规则复用最接近的核心素材。
 
+Git 仓库包含应用运行所需的全部动画和提示词。体积较大的生图过程稿、动作拆帧与透明化中间文件收录在每个版本 Release 的 `full-source` 压缩包中。
+
 ## 安装
 
 ### 下载安装包（推荐）
@@ -129,6 +131,8 @@ Domi is a desktop pet app for macOS. A transparent, always-on-top dog lives on y
 - **Fully local runtime** — settings, statistics, and pet assets stay on your Mac; the app never asks for, reads, or stores an API key
 
 Open Settings → Appearance and select **My Dog**. The included animation set covers Idle, Happy, Break Prompt, Stretching, Hydration Prompt, Sleeping, Walking, Running, and Pouncing. Walking and Running each use six genuinely different body poses instead of moving one static drawing; related states reuse the closest matching local animation.
+
+The Git repository includes every runtime asset and the prompt template. Large generation source images, extracted frames, and transparency intermediates are provided in each Release's `full-source` archive.
 
 ### Install
 
