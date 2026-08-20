@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+out/
+dist/
+.pnpm-store/
+*.log
+_raw_assets/
+generated_pet_assets/*
+!generated_pet_assets/PROMPTS.md
+CLAUDE.md
+docs/release.md
